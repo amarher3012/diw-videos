@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+html * {
+	font-family: "Inter", sans-serif !important;
+}
+
+/* Nav bar */
+.nav {
+	display: flex;
+	height: 35px;
+	width: 100%;
+}
+
+.nav-links {
+	display: flex;
+	gap: 25px;
+	width: 80%;
+	height: 100%;
+	align-items: center;
+}
+
+.nav-links button {
+	width: 100px;
+	height: 20px;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* Profile picture */
+.profile-pic {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 20%;
+	height: 100%;
+}
+
+#pfp {
+	width: 33px;
+	height: 100%;
+	border-radius: 999px;
+}
+
+#pfp[alt] {
+	font-size: small;
+}
+
+/* Player */
+.player {
+	padding: 10px;
+}
+
+video {
+	border-radius: 15px;
+}
+
+.recommended-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 15px;
+	height: fit-content;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 20%;
+	height: fit-content;
+}
